@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Arial;
 }
 
 hr {
@@ -42,7 +42,11 @@ h6 {
   background-color: #F8F8F8 !important;
 }
 .bg-primary1 {
-  background-color: #FFFAFA !important;
+  background-color:   #d3ded8   !important;
+}
+
+.bg-primary2 {
+  background-color:  #d5d3de   !important;
 }
 
 .bg-dark {
@@ -176,7 +180,8 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-color:  #2471a3 ;
+#  background-image: url("../img/header.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -316,4 +321,12 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
 }
